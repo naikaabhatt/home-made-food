@@ -25,7 +25,7 @@
 
 1. Clone project and open it in VSCode.
 
-2. After cloning the project open cmd and type
+2. Install dependencies
     ```
       yarn install
     ```

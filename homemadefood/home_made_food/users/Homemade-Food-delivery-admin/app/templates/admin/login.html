@@ -1,0 +1,45 @@
+{% extends "admin/template/template.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block main %}
+<div class="circle">
+</div>
+<div class="sub_circle_background">
+	<img src="{{ url_for('static', filename='img/dish.png') }}" alt="">
+</div>
+<div class="sub_circle_background2">
+	<img src="{{ url_for('static', filename='img/soupred.png') }}" alt="">
+</div>
+<div class="sub_circle_background3">
+	<img src="{{ url_for('static', filename='img/dish2.png') }}" alt="">
+</div>
+<div class="sub_circle_background4">
+	<img src="{{ url_for('static', filename='img/Meal.png') }}" alt="">
+</div>
+<div class="sub_circle_background5">
+	<img src="{{ url_for('static', filename='img/soup.png') }}" alt="">
+</div>
+<div class="sub_circle_background6">
+	<img src="{{ url_for('static', filename='img/cornsoup.png') }}" alt="">
+</div>
+	<div class="main_background">
+		<div class="login_box">
+			<h1 style="color:red">Login <span style="color:rgb(0, 0, 0)">as Admin  </span> </h1>
+			
+			<form action="/" method="POST">
+				<div class="mb-3">
+					<label for="Email" class="form-label">Email address</label>
+					<input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+					
+				</div>
+				<div class="mb-3">
+					<label for="password" class="form-label">Password</label>
+					<input type="password" class="form-control" name="password" id="password">
+				</div>
+				<button style=" padding-left: 20px; padding-right: 20px; border-radius: 20vw;"  type="submit" class="btn btn-primary"><i class="bi bi-arrow-90deg-right"></i>Login</button>
+				{{error}}
+			</form>
+		</div>
+	</div>
+{% endblock %}

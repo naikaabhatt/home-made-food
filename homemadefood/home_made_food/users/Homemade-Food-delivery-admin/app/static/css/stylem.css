@@ -1,0 +1,138 @@
+.main_background{
+	background-color:rgba(255, 255, 255, 0);
+	position: fixed;
+	height: 100vw;
+	width: 100vw;
+	display: flex;
+	justify-content:flex-start;
+	position: fixed;
+}
+.body_background{
+	background-color:rgba(245, 244, 244, 0.849);
+}
+.sub_circle_background 	img{
+	height: 20vw;
+	width: 20vw;
+	border-radius: 50%;
+	background-color: rgb(238,238,238);
+	position: fixed;
+	margin-top: 24%;
+	margin-left: 62%;
+}
+
+.sub_circle_background2 img{
+	height: 10vw;
+	width: 10vw;
+	background-color: rgb(238,238,238);
+	border-radius: 50%;
+	position: fixed;
+	margin-top: 15%;
+	margin-left: 49%;
+}
+
+.sub_circle_background3 img{
+	height: 10vw;
+	width: 10vw;
+	background-color: rgb(238,238,238);
+	border-radius: 50%;
+	position: fixed;
+	margin-top: 7%;
+	margin-left: 60%;
+}
+
+.sub_circle_background4 img{
+	height: 10vw;
+	width: 10vw;
+	background-color: rgb(238,238,238);
+	border-radius: 50%;
+	position: fixed;
+	margin-top: 6%;
+	margin-left: 75%;
+}
+
+.sub_circle_background5 img{
+	height: 10vw;
+	width: 10vw;
+	background-color: rgb(238,238,238);
+	border-radius: 50%;
+	position: fixed;
+	margin-top: 17%;
+	margin-left: 86%;
+}
+
+.sub_circle_background6 img{
+	height: 10vw;
+	width: 10vw;
+	background-color: rgb(238,238,238);
+	border-radius: 50%;
+	position: fixed;
+	margin-top: 29%;
+	margin-left: 89%;
+}
+
+.circle {
+	height: 90vw;
+	width: 90vw;
+	border-radius: 50%;
+	background-color: black;
+	position: fixed;
+	margin-top: -50%;
+	margin-left: 40%;
+}
+
+.login_box{
+	height: fit-content;
+	width: fit-content;
+	background-color: rgb(243, 243, 243);
+	padding: 20px;
+	margin-top: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
+	flex-wrap: wrap;
+}
+@media screen and (max-width: 670px) {
+	
+
+	.login_box{
+		height: fit-content;
+		width: fit-content;
+		background-color: rgb(236, 236, 236, 0.534);
+		padding: 20px;
+		margin-top: 50%;
+		margin-left: 10%;
+		margin-right: 10%;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+
+	.login_box{
+		height: fit-content;
+		width: fit-content;
+		background-color: rgb(236, 236, 236, 0.534);
+		padding: 20px;
+		margin-top: 35%;
+		margin-left: 10%;
+		margin-right: 10%;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	
+
+	.login_box{
+		height: fit-content;
+		width: fit-content;
+		background-color: rgb(236, 236, 236, 0.534);
+		padding: 20px;
+		margin-top: 50%;
+		margin-left: 10%;
+		margin-right: 10%;
+		flex-wrap: wrap;
+	}
+}
+
+/* ---------------------------- */

@@ -1,0 +1,136 @@
+{% extends "admin/template/template.html" %}
+
+
+{% block title %}manage user{% endblock %}
+
+{% block main %}
+<div class="container">
+  <br>
+  <div class="text-center">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card  text-white bg-dark">
+                <div class="card-body">
+                  
+                    <h5 class="card-title text-uppercase mb-0">Manage Users</h5>
+                </div>
+               </div>
+               <br>
+                       
+                            <div class="card  mb-3" style="max-width: 100rem;">
+                              <div class="card-header text-white bg-danger"><h4>Cook</h4></div>
+                              {% if cookname is defined %}
+                              <div class="card-body">
+<!--                                
+                                <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      {% for i in cookname %}
+                                      <th scope="col">{{i}}</th>
+                                      {% endfor%}
+                                    </tr>
+                                  </thead>
+                                   {% for i in cook %}
+                                  <h1>{{i}}</h1>
+                                  {% endfor %} -->
+                                  
+                                 
+                                
+                                    
+                                    <!-- <tr>
+                                      {% for key,parent_dict_item in cook.items() %}
+                                      {% for key2, nested_value in parent_dict_item.items() %}
+                                        <li>{{ nested_value }}</li>
+                                       {% endfor %}
+                                  {% endfor %}
+                                    </tr>
+                                    -->
+                                   
+
+                                    <table class="table">
+                                      <thead class="thead-dark">
+                                        <tr>
+                                          
+                                          <th scope="col">Name</th>
+                                          <th scope="col">Email</th>
+                                          <th scope="col">Phone</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>Yan</td>
+                                          <td>Yan@gmail.com</td>
+                                          
+                                          <td>83945870</td>
+                                        </tr>
+                                        <tr>
+                                          
+                                          <td>shubham</td>
+                                          <td>sk@gmail.com</td>
+                                          <td>9334264497</td>
+                                        </tr>
+                                      
+                                      </tbody>
+                                    </table>
+                             
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                             <div class="card  mb-3" style="max-width: 100rem;">
+                              <div class="card-header text-white bg-primary"><h4>Custom</h4></div>
+                              {% if name is defined %}
+                              <div class="card-body">
+                                
+                                
+
+                            {% endif %} 
+
+                            
+                             <table class="table">
+                              <thead class="thead-dark">
+                                <tr>
+                                  
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Email</th>
+                                  <th scope="col">Phone</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Naika</td>
+                                  <td>naika@gmail.com</td>
+                                 
+                                  <td>9429305185</td>
+                                </tr>
+                                <tr>
+                                 
+                                  <td>shubham</td>
+                                  <td>sk@gmail.com</td>
+                                  <td>9334264497</td>
+                                </tr>
+
+                                <tr>
+                                 
+                                  <td>Team1</td>
+                                  <td>Team1@gmail.com</td>
+                                  <td>1234567890</td>
+                                </tr>
+                                <tr>
+                                  <td>Shanu</td>
+                                  <td>nirwalshanu17@gmail.com</td>
+                                  
+                                  <td>9510305037</td>
+                                </tr>
+                              
+                              </tbody>
+                            </table>
+                      {% endif %} 
+                    </div>
+                     
+               
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
